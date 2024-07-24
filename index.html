@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payzone</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="./images/logo6.jpg" alt="">
+        </div>
+    </header>
+
+    <section class="hero_section">
+        <div class="hero_content">
+            <h1>Transfer Money Easily and Securely</h1>
+            <p>Fast, secure, and convenient way to transfer money to your friends and family.</p>
+            <button onclick="showAlert()">Get Started</button>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-items">
+                <div class="feature-item">
+                    <i class='bx bxs-hand-up' style='color:#2dbe60'></i>
+                    <h3>Easy to use</h3>
+                    <p>User-friendly interface to make transactions effortless.</p>
+                </div>
+                <div class="feature-item">
+                    <i class='bx bxs-lock-alt' style='color:#2dbe60'></i>
+                    <h3>Secure Transactions</h3>
+                    <p>End-to-end encryption to ensure your data is safe.</p>
+                </div>
+                <div class="feature-item">
+                    <i class='bx bx-right-arrow-alt' style='color:#2dbe60'></i>
+                    <h3>Instant Transfers</h3>
+                    <p>Transfer money instantly with just a few clicks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Users Say</h2>
+            <div class="testimonial-items">
+                <div class="testimonial-item">
+                    <p>"Payzone has made sending money to my family so simple and quick!" </p>
+                    <p class="name">- John D.</p>
+                </div>
+                <div class="testimonial-item">
+                    <p>"I love the user-friendly interface and secure transactions." </p>
+                    <p class="name">- Sarah K.</p>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Fast and reliable money transfers every time."</p>
+                    <p class="name">- Mike L.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="Message" style="padding-left:1.7rem;">Message</label>
+                <textarea name="message" id="message" required></textarea>
+
+                <button type="submit" class="submit">Send Message</button>
+
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-google'></i></a>
+            </div>
+            <p>2024 Payzone. All rights reserved.</p>
+
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
